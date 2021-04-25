@@ -3,7 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      mark {
+        background-color: lime;
+        color: white;
+      }
+    </style>
     <title>Formatação de Texto</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Principais Formatções</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>
+      Para essa frase temos um <b> termo em negrito </b> usando a TAG "b" (Não
+      semântica)
+    </p>
+    <p>
+      Para essa frase, tenho um <strong>termo em negrito</strong> usando a TAG
+      STRONG (semântico).
+    </p>
+    <h2>Itálico / Ênface</h2>
+    <p>
+      Para esta frase, temos um <i>trmo em itãlico</i> usando a TAG "i" (Não
+      semântica)
+    </p>
+    <p>
+      para esta frase temos um <em>termo em ênface</em> usando a TAG "em"
+      (Semântica)
+    </p>
+    <h2>Texto marcado</h2>
+    <p>
+      <!-- Estilizando o mark na própria TAG (Não recomendado)-->
+      Podemos cria também um
+      <mark style="background-color: rgb(19, 40, 107); color: white"
+        >texto marcado</mark
+      >
+      usando a TAG mark
+      <!-- Para utilizar um estilo com herança precisa fazer isso no CSS -->
+    </p>
+    <p>
+      Outro paragrafo com outro <mark>texto marcado</mark>, mas agora utilizando
+      stilização em CSS
+    </p>
+    <h2>Texto grande e texto pequeno</h2>
+    <p>
+      Estamos criando um <big>texto grande</big> e um
+      <small>texto pequeno</small> para este parágrafo.
+    </p>
+    <h2>Texto deletado</h2>
+    <p>
+      Podemos marcar um <del>texto como excluído</del> para indicar que ele deve
+      ser lido, mas não considerado.
+    </p>
+    <h2>Texto inseirdo</h2>
+    <p>
+      Podemos marcar um <ins>texto como inserido</ins> oara dar uma ênface e
+      indicar que ele foi adicionando depois.
+    </p>
+    <h2>Texto sobrescrito0</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisa do tipo H20</p>
+  </body>
 </html>
