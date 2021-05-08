@@ -4,7 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Midias em HTML5</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+      <!-- Utilizar "min-width: " ou "max-width: " -->
+
+      <source media="(max-width: 100px)" srcset="imagens/foto-100.png" type="image/png">
+      <source media="(max-width: 150px)" srcset="imagens/foto-150.png" type="image/png">
+      <source media="(max-width: 200px)" srcset="imagens/foto-200.png" type="image/png">
+      <source media="(max-width: 250px)" srcset="imagens/foto-250.png" type="image/png">
+      <source media="(max-width: 300px)" srcset="imagens/foto-300.png" type="image/png">
+      <source media="(max-width: 400px)" srcset="imagens/foto-400.png" type="image/png">
+      <source media="(max-width: 500px)" srcset="imagens/foto-500.png" type="image/png">
+      <source media="(max-width: 600px)" srcset="imagens/foto-600.png" type="image/png">
+      <source media="(max-width: 700px)" srcset="imagens/foto-700.png" type="image/png">
+      <source media="(max-width: 800px)" srcset="imagens/foto-800.png" type="image/png">
+      <source media="(max-width: 900px)" srcset="imagens/foto-900.png" type="image/png">
+      
+      <img src="imagens/foto-1000.png" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Reproduzindo audios em HTML5</p>
+    <audio preload="metadata" controls="controls" autoplay="autoplay">
+      <source src="midia/sonic_pogo-vans-in_japan.mp3" type="audio/mpeg">
+    </audio>
+  </body>
 </html>
