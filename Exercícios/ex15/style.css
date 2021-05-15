@@ -1,18 +1,23 @@
 @charset "UTF-8";
 
 body {
-    background-color: lightgoldenrodyellow;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+  background-color: lightgoldenrodyellow;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 h1 {
-    color: maroon;
-    background-color: darkgoldenrod;
-    text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: maroon;
+  background-color: darkgoldenrod;
+  text-align: center;
 }
 h2 {
-    color: darkred;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: darkred;
 }
 p {
-    text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  font-size: 15px;
 }
